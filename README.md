@@ -3,18 +3,27 @@
 ## Link
 Link to live site: [Responsive Portfolio](https://reddphoenix.github.io/responsive-portfolio/)
 
-##Screenshot of live websit
+## Screenshot of live website
 
-![Website Screenshot](homework\responsive-portfolio\assets\live-website-screenshot.jpg)
+![Website Screenshot](https://github.com/ReddPhoenix/responsive-portfolio/blob/master/assets/live-website-screenshot.jpg?raw=true)
 
 ## Project Overview
 
-Personal responsive website developed for Walter Guerrero to reflect experience, projects, and contact information.
+Responsive website developed for Walter Guerrero to reflect experience, projects, and contact information. Developed using Bootstrap code. 
 
 ## Contact Information
 
 * Walter Guerrero
 * wsguerrero@gmail.com
+
+
+## Credits
+
+* https://getbootstrap.com
+* https://bootsnipp.com
+* https://w3docs.com
+* https://w3schools.com
+* https://csshint.com
 
 ## License
 
