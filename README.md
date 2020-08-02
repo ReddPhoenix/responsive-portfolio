@@ -5,7 +5,7 @@ Link to live site: [Responsive Portfolio](https://reddphoenix.github.io/responsi
 
 ## Screenshot of live website
 
-![Website Screenshot](https://github.com/ReddPhoenix/responsive-portfolio/blob/master/assets/live-website-screenshot.jpg?raw=true)
+![Website Screenshot](https://github.com/ReddPhoenix/responsive-portfolio/blob/master/assets/live-website-screenshot.png?raw=true)
 
 ## Project Overview
 
