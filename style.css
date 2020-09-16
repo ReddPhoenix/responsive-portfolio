@@ -1,0 +1,25 @@
+body {
+    background-color:#14213d;
+    font: #FFFFFF;
+}
+
+.album {
+    color: black;
+    background-color: #14213d;
+}
+
+
+
+.jumbotron {
+    color: #FFFFFF;
+    background-color: #fca311;
+}
+
+.row {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card {
+    color: black
+}
