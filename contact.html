@@ -1,130 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./contact.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- Contact Bootstrap Stylesheet/JS-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
-    <!-- Sticky Footer link-->
-    <link href="sticky-footer.css" rel="stylesheet">
-    <title>Contact Page</title>
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contact.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Contact Bootstrap Stylesheet/JS-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+    id="bootstrap-css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Sticky Footer link-->
+  <link href="sticky-footer.css" rel="stylesheet">
+  <title>Contact Page</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
 
 </head>
+
 <body>
-    <header>
+  <header>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html"><h1>Walter Guerrero</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <!-- Home -->
-            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            <!-- Portfolio -->
-            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-            <!-- Contact -->
-            <a class="nav-item nav-link" href="./contact.html">Contact</a>
-          </div>
+      <a class="navbar-brand" href="./home.html">
+        <h1>Walter Guerrero</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- Home -->
+          <a class="nav-item nav-link " href="./home.html">Home <span class="sr-only">(current)</span></a>
+          <!-- Portfolio -->
+          <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+          <!-- Contact -->
+          <a class="nav-item nav-link active" href="./contact.html">Contact</a>
         </div>
+      </div>
     </nav>
-    </header>
-   
-    <main>
+  </header>
+
+  <main>
     <!-- Contact Container -->
     <div class="container contact">
-        <div class="row">
+      <div class="row">
 
-            <div class="col-md-3">
-                <div class="contact-info">
-                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="envelope"/>
-                    <h2>Contact Me</h2>
-                    <!-- <h4>I would love to hear from you!</h4> -->
-                    <h4>This contact form is currently disabled. Stay tuned for future updates! Please contact me using the email provided at the bottom of the page.</h4>
-                </div>
-            </div>
-
-            <div class="col-md-9">
-                <div class="contact-form">
-                    <!-- First Name-->
-                    <div class="form-group">
-                      <label class="control-label col-sm-2" for="fname">First Name:</label>
-                      <div class="col-sm-10">          
-                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
-                      </div>
-                    </div>
-                    <!-- Last Name -->
-                    <div class="form-group">
-                      <label class="control-label col-sm-2" for="lname">Last Name:</label>
-                      <div class="col-sm-10">          
-                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
-                      </div>
-                    </div>
-                    <!-- Email -->
-                    <div class="form-group">
-                      <label class="control-label col-sm-2" for="email">Email:</label>
-                      <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                      </div>
-                    </div>
-                    <!-- Comment -->
-                    <div class="form-group">
-                      <label class="control-label col-sm-2" for="comment">Comment:</label>
-                      <div class="col-sm-10">
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                      </div>
-                    </div>
-                    <!-- Submit -->
-                    <div class="form-group">        
-                      <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">Submit</button>
-                      </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-3">
+          <div class="contact-info">
+            <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="envelope" />
+            <h2>Contact Me</h2>
+            <!-- <h4>I would love to hear from you!</h4> -->
+            <h4>This contact form is currently disabled. Stay tuned for future updates! Please contact me using the
+              email provided at the bottom of the page.</h4>
+          </div>
         </div>
+
+        <div class="col-md-9">
+          <div class="contact-form">
+            <!-- First Name-->
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="fname">First Name:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+              </div>
+            </div>
+            <!-- Last Name -->
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="lname">Last Name:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+              </div>
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
+            </div>
+            <!-- Comment -->
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="comment">Comment:</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="5" id="comment" placeholder="Enter message here..."></textarea>
+              </div>
+            </div>
+            <!-- Submit -->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </main>
-    
+  </main>
 
-    <!-- Sticky Footer-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-          <h6>Contact me: wsguerrero@gmail.com</h6>
-            &copy; <script>document.write(new Date().getFullYear())</script><span class="text-muted"> Copyright. All rights reserved. </span>
-        </div>
-    </footer>
 
-    
+  <!-- Sticky Footer-->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <h6>Contact me: wsguerrero@gmail.com</h6>
+      &copy; <script>
+        document.write(new Date().getFullYear())
+      </script><span class="text-muted"> Copyright. All rights reserved. </span>
+    </div>
+  </footer>
 
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
 
 
 </body>
+
 </html>

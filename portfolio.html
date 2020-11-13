@@ -1,140 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="album.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <!-- Sticky Footer link-->
-    <link href="sticky-footer.css" rel="stylesheet">
-    <title>Portfolio</title>
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+    id="bootstrap-css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="album.css" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Sticky Footer link-->
+  <link href="sticky-footer.css" rel="stylesheet">
+  <title>Portfolio</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
 
 </head>
+
 <body>
-    <header>
+  <header>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html"><h1>Walter Guerrero</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <!-- Home -->
-            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            <!-- Portfolio -->
-            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-            <!-- Contact -->
-            <a class="nav-item nav-link" href="./contact.html">Contact</a>
+      <a class="navbar-brand" href="./home.html">
+        <h1>Walter Guerrero</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- Home -->
+          <a class="nav-item nav-link" href="./home.html">Home <span class="sr-only">(current)</span></a>
+          <!-- Portfolio -->
+          <a class="nav-item nav-link active" href="./portfolio.html">Portfolio</a>
+          <!-- Contact -->
+          <a class="nav-item nav-link" href="./contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Portfolio</h1>
+        <p class="lead ">A variety of projects can be found here. If you have a project in mind that you would be
+          interested in please feel free to reach out to me through the Contact link at the top of the page.</p>
+      </div>
+    </section>
+
+    <div class="album py-5 ">
+      <div class="container">
+        <div class="row">
+          <!-- First Project-->
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <h2> <u>Book vs Movie</u></h2>
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail">
+              <div class="card-body">
+                <img src="./assets/live-site-desktop-screenshot.png" class="responsive" width="200" height="200">
+                <p class="card-text">App developed using multiple APIs to search a book and compare it to the movie
+                  equivalent using critic ratings.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- Links to Github Project-->
+                    <a class="btn btn-sm btn-outline-secondary" href="https://uofu-project-1.github.io/Book-vs-Movie/"
+                      role="button">View</a>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Project-->
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <h2><u>Timed Code Quiz</u></h2>
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail">
+              <div class="card-body">
+                <img src="./assets/screenshot-of-live-website-desktop.png" class="responsive" width="200" height="200">
+                <p class="card-text">JavaScript quiz app with timer, score and local storage for high score.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- Button disabled. Placeholder for future project -->
+                    <a class="btn btn-sm btn-outline-secondary" href="https://reddphoenix.github.io/code-quiz/"
+                      role="button">View<a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Project -->
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <h2><u>Password Generator</u></h2>
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail">
+              <div class="card-body">
+                <img src="./assets/live-website-screenshot copy.png" class="responsive" width="200" height="200">
+                <p class="card-text">App creates a random password based on user-specified criteria. Data supplied by
+                  user is validated to match password requirements.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- Button disabled. Placeholder for future project -->
+                    <a class="btn btn-sm btn-outline-secondary"
+                      href="https://reddphoenix.github.io/random-password-generator/" role="button">View<a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main role="main">
-
-        <section class="jumbotron text-center">
-          <div class="container">
-            <h1 class="jumbotron-heading">Portfolio</h1>
-            <p class="lead ">A variety of projects can be found here. If you have a project in mind that you would be interested in please feel free to reach out to me through the Contact link at the top of the page.</p>
-          </div>
-        </section>
-  
-        <div class="album py-5 ">
-            <div class="container">
-            <div class="row">
-              <!-- First Project-->
-              <div class="col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <h2> <u>Book vs Movie</u></h2>
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" >
-                  <div class="card-body">
-                    <img src="./assets/live-site-desktop-screenshot.png" class="responsive" width="200" height="200">
-                    <p class="card-text">App developed using multiple APIs to search a book and compare it to the movie equivalent using critic ratings.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                         <!-- Links to Github Project--> 
-                        <a class="btn btn-sm btn-outline-secondary" href="https://uofu-project-1.github.io/Book-vs-Movie/" role="button">View</a> 
-                        <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Second Project-->
-              <div class="col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <h2><u>Timed Code Quiz</u></h2>
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail">
-                  <div class="card-body">
-                    <img src="./assets/screenshot-of-live-website-desktop.png" class="responsive" width="200" height="200">
-                    <p class="card-text">JavaScript quiz app with timer, score and local storage for high score.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                          <!-- Button disabled. Placeholder for future project -->
-                        <a class="btn btn-sm btn-outline-secondary" href="https://reddphoenix.github.io/code-quiz/" role="button">View<a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Third Project -->
-              <div class="col-md-4">
-                <div class="card mb-4 box-shadow">
-                  <h2><u>Password Generator</u></h2>
-                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail">
-                  <div class="card-body">
-                    <img src="./assets/live-website-screenshot copy.png" class="responsive" width="200" height="200">
-                    <p class="card-text">App creates a random password based on user-specified criteria. Data supplied by user is validated to match password requirements.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                         <!-- Button disabled. Placeholder for future project --> 
-                         <a class="btn btn-sm btn-outline-secondary" href="https://reddphoenix.github.io/random-password-generator/" role="button">View<a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-        </div>
+      </div>
+    </div>
 
 
 
-  
-        <!-- Sticky Footer-->
-        <footer class="footer mt-auto py-3">
-            <div class="container">
-              <h6>Contact me: wsguerrero@gmail.com</h6>
-                &copy; <script>document.write(new Date().getFullYear())</script><span class="text-muted"> Copyright. All rights reserved. </span>
-            </div>
-            
-        </footer>
-    
 
-    
+    <!-- Sticky Footer-->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <h6>Contact me: wsguerrero@gmail.com</h6>
+        &copy; <script>
+          document.write(new Date().getFullYear())
+        </script><span class="text-muted"> Copyright. All rights reserved. </span>
+      </div>
 
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr
+    </footer>
+
+
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- Out of date  -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr
 +6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="../../assets/js/vendor/popper.min.js"></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
-<script src="../../assets/js/vendor/holder.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="../../assets/js/vendor/popper.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <script src="../../assets/js/vendor/holder.min.js"></script> -->
 
 
 </body>
+
 </html>
